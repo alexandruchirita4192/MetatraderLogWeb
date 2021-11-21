@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="78e8ae31a0fe462194a6781677e1904a" Name="Diagram1">
+        <EntityTypeShape EntityType="MetatraderLogModel.ConfigTable" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.DatabaseVersion" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.DataLog" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.DataLogDetail" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.DebugLog" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.ProcedureLog" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.TradingSession" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.DataAndAggregate" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.DataAndDetail" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.InitialAggregateDetail" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.XmlDataAndDetail" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.vwDataToXml" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.vwInitialAggregateDetail" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.vwLastMetatraderPartialResultsPost" Width="1.5" PointX="11.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.vwLastMetatraderPartialResultsPre" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.vwLastMetatraderResultsPre" Width="1.5" PointX="13.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.vwTradingSession" Width="1.5" PointX="6.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MetatraderLogModel.vwXmlExtractIntoTable" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="MetatraderLogModel.FK_DataLog_SessionId" ManuallyRouted="false" />
+        <AssociationConnector Association="MetatraderLogModel.FK_DataLogDetail_DataLogId" ManuallyRouted="false" />
+        <AssociationConnector Association="MetatraderLogModel.FK_DebugLog_SessionId" ManuallyRouted="false" />
+        <AssociationConnector Association="MetatraderLogModel.FK_ProcedureLog_SessionId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

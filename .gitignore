@@ -1,0 +1,7 @@
+
+*.sqlite
+MetatraderLogWeb/.vs/VSWorkspaceState.json
+MetatraderLogWeb/.vs/MetatraderLogWeb/v16/.suo
+MetatraderLogWeb/Bin/EntityFramework.dll
+MetatraderLogWeb/Bin/EntityFramework.dll.refresh
+MetatraderLogWeb/Bin/EntityFramework.xml
